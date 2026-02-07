@@ -1,0 +1,15 @@
+### Module positions - created on 2026-01-28 11:05
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 0.000mm, Pcb Width 0.000mm [based on Edge bounding box]
+## Side : top
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+J8            OLLED I2C           Molex_KK-254_AE-6410-04A_1x.. 149.8800   -95.0000   149.8800   -95.0000      0.0    top       THD
+J7            MotorF              Molex_KK-254_AE-6410-02A_1x.. 142.7400   -80.2500   142.7400   -80.2500      0.0    top       THD
+J6            MotorE              Molex_KK-254_AE-6410-02A_1x.. 135.6000   -80.2500   135.6000   -80.2500      0.0    top       THD
+J5            MotorC              Molex_KK-254_AE-6410-02A_1x.. 128.4600   -80.2500   128.4600   -80.2500      0.0    top       THD
+J4            MotorB              Molex_KK-254_AE-6410-02A_1x.. 121.3200   -80.2500   121.3200   -80.2500      0.0    top       THD
+J3            MotorA              Molex_KK-254_AE-6410-02A_1x.. 114.1800   -80.2500   114.1800   -80.2500      0.0    top       THD
+J2            -  +                Molex_Micro-Latch_53253-027.. 138.6300   -95.0000   138.6300   -95.0000      0.0    top       THD
+## End

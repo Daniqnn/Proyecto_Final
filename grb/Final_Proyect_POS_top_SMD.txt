@@ -1,0 +1,55 @@
+### Module positions - created on 2026-01-28 11:05
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 0.000mm, Pcb Width 0.000mm [based on Edge bounding box]
+## Side : top
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+U7            DRV8871DDA          Texas_HTSOP-8-1EP_3.9x4.9mm.. 193.8500   -80.6200   190.9750   -78.7150      0.0    top       SMD
+U6            DRV8871DDA          Texas_HTSOP-8-1EP_3.9x4.9mm.. 193.8500   -73.9800   190.9750   -72.0750      0.0    top       SMD
+U5            DRV8871DDA          Texas_HTSOP-8-1EP_3.9x4.9mm.. 193.8500   -67.3400   190.9750   -65.4350      0.0    top       SMD
+U4            DRV8871DDA          Texas_HTSOP-8-1EP_3.9x4.9mm.. 193.8500   -60.7000   190.9750   -58.7950      0.0    top       SMD
+U3            DRV8871DDA          Texas_HTSOP-8-1EP_3.9x4.9mm.. 181.3500   -45.3000   178.4750   -43.3950      0.0    top       SMD
+U2            AMS1117-3.3         SOT-223-3_TabPin2             140.5300   -88.3550   137.3800   -86.0550      0.0    top       SMD
+U1            ESP32-S3-WROOM-1    ESP32-S3-WROOM-1              136.4100   -62.3300   127.6600   -57.0700      0.0    top       SMD
+R20           220R                R_0805_2012Metric             163.0200   -89.5800   162.1075   -89.5800      0.0    top       SMD
+R19           220R                R_0805_2012Metric             163.0200   -86.6300   162.1075   -86.6300      0.0    top       SMD
+R18           30k                 R_0805_2012Metric             163.0200   -83.6800   162.1075   -83.6800      0.0    top       SMD
+R17           220R                R_0805_2012Metric             163.0200   -80.7300   162.1075   -80.7300      0.0    top       SMD
+R16           220R                R_0805_2012Metric             163.0200   -77.7800   162.1075   -77.7800      0.0    top       SMD
+R15           30k                 R_0805_2012Metric             158.6100   -89.5800   157.6975   -89.5800      0.0    top       SMD
+R14           220R                R_0805_2012Metric             158.6100   -86.6300   157.6975   -86.6300      0.0    top       SMD
+R13           220R                R_0805_2012Metric             158.6100   -83.6800   157.6975   -83.6800      0.0    top       SMD
+R12           30k                 R_0805_2012Metric             158.6100   -80.7300   157.6975   -80.7300      0.0    top       SMD
+R11           220R                R_0805_2012Metric             158.6100   -77.7800   157.6975   -77.7800      0.0    top       SMD
+R10           220R                R_0805_2012Metric             154.2000   -89.5800   153.2875   -89.5800      0.0    top       SMD
+R9            30k                 R_0805_2012Metric             154.2000   -86.6300   153.2875   -86.6300      0.0    top       SMD
+R8            330                 R_0805_2012Metric             154.2000   -83.6800   153.2875   -83.6800      0.0    top       SMD
+R7            220R                R_0805_2012Metric             154.2000   -80.7300   153.2875   -80.7300      0.0    top       SMD
+R6            220R                R_0805_2012Metric             154.2000   -77.7800   153.2875   -77.7800      0.0    top       SMD
+R5            30k                 R_0805_2012Metric             149.7900   -89.5800   148.8775   -89.5800      0.0    top       SMD
+R4            5.1k                R_0805_2012Metric             149.7900   -86.6300   148.8775   -86.6300      0.0    top       SMD
+R3            5.1k                R_0805_2012Metric             149.7900   -83.6800   148.8775   -83.6800      0.0    top       SMD
+R2            100R                R_0805_2012Metric             149.7900   -80.7300   148.8775   -80.7300      0.0    top       SMD
+R1            10k                 R_0805_2012Metric             149.7900   -77.7800   148.8775   -77.7800      0.0    top       SMD
+J1            USB_C_Receptacle_.. USB_C_Receptacle_GCT_USB410.. 129.7600   -89.4400   0.0000     0.0000        0.0    top       SMD
+EN1           SW_SPST             SW_Push_SPST_NO_Alps_SKRK     164.2100   -73.9300   162.1100   -73.9300      0.0    top       SMD
+D1            LED                 LED_0201_0603Metric           145.1150   -93.3500   144.7950   -93.3500      0.0    top       SMD
+C16           47uf                C_0603_1608Metric             121.9100   -92.9400   121.1350   -92.9400      0.0    top       SMD
+C15           0.1uf               C_0603_1608Metric             121.9100   -90.4300   121.1350   -90.4300      0.0    top       SMD
+C14           47uf                C_0603_1608Metric             121.9100   -87.9200   121.1350   -87.9200      0.0    top       SMD
+C13           0.1uf               C_0603_1608Metric             121.9100   -85.4100   121.1350   -85.4100      0.0    top       SMD
+C12           47uf                C_0603_1608Metric             117.9000   -97.9600   117.1250   -97.9600      0.0    top       SMD
+C11           0.1uf               C_0603_1608Metric             117.9000   -95.4500   117.1250   -95.4500      0.0    top       SMD
+C10           47uf                C_0603_1608Metric             117.9000   -92.9400   117.1250   -92.9400      0.0    top       SMD
+C9            0.1uf               C_0603_1608Metric             117.9000   -90.4300   117.1250   -90.4300      0.0    top       SMD
+C8            47uf                C_0603_1608Metric             117.9000   -87.9200   117.1250   -87.9200      0.0    top       SMD
+C7            0.1uf               C_0603_1608Metric             117.9000   -85.4100   117.1250   -85.4100      0.0    top       SMD
+C6            22uf                C_0603_1608Metric             113.8900   -97.9600   113.1150   -97.9600      0.0    top       SMD
+C5            100uf               C_0603_1608Metric             113.8900   -95.4500   113.1150   -95.4500      0.0    top       SMD
+C4            1uf                 C_0603_1608Metric             113.8900   -92.9400   113.1150   -92.9400      0.0    top       SMD
+C3            100uf               C_0603_1608Metric             113.8900   -90.4300   113.1150   -90.4300      0.0    top       SMD
+C2            22uf                C_0603_1608Metric             113.8900   -87.9200   113.1150   -87.9200      0.0    top       SMD
+C1            10uf                C_0603_1608Metric             113.8900   -85.4100   113.1150   -85.4100      0.0    top       SMD
+BOOT1         SW_SPST             SW_Push_SPST_NO_Alps_SKRK     164.2100   -69.4800   162.1100   -69.4800      0.0    top       SMD
+## End
