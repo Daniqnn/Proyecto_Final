@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -192,7 +192,8 @@
         0.4,
         0.6,
         0.8,
-        1.0
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -505,8 +506,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "",
-      "pos_files": "",
+      "plot": "../../../Fabricacion de PCB/Proyecto_Final_ITLA/ITLA-Proyecto/",
+      "pos_files": "../../../Fabricacion de PCB/Proyecto_Final_ITLA/CPL/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -596,6 +597,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",

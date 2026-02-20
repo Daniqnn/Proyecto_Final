@@ -1005,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 100.33 96.52)
+			(xy 99.06 97.79) (xy 100.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 100.33) (xy 100.33 100.33)
+			(xy 99.06 101.6) (xy 100.33 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1085,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 96.52) (xy 110.49 96.52)
+			(xy 107.95 97.79) (xy 110.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1155,7 +1155,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 100.33) (xy 110.49 100.33)
+			(xy 107.95 101.6) (xy 110.49 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1205,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 90.17) (xy 99.06 90.17)
+			(xy 97.79 91.44) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 90.17) (xy 106.68 90.17)
+			(xy 107.95 91.44) (xy 106.68 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1254,7 +1254,7 @@
 		(uuid "fdf17884-4969-4948-abfe-88e74046ca20")
 	)
 	(label "IN2"
-		(at 110.49 96.52 0)
+		(at 110.49 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1284,7 +1284,7 @@
 		(uuid "4c427e34-f3f2-4ad8-91b7-d0495f0add2b")
 	)
 	(label "IN1"
-		(at 110.49 100.33 0)
+		(at 110.49 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1314,7 +1314,7 @@
 		(uuid "879fe250-c630-49c0-8dac-87b8e4460820")
 	)
 	(label "ISEN"
-		(at 97.79 90.17 180)
+		(at 97.79 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1335,7 +1335,7 @@
 	)
 	(hierarchical_label "IN.1"
 		(shape input)
-		(at 99.06 96.52 180)
+		(at 99.06 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1357,7 +1357,7 @@
 	)
 	(hierarchical_label "IN.2"
 		(shape input)
-		(at 99.06 100.33 180)
+		(at 99.06 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1424,6 +1424,15 @@
 			)
 		)
 		(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8"
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86590"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -1667,7 +1676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 120.65 113.0299 0)
 			(effects
 				(font
@@ -1695,6 +1704,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 118.11 111.76 0)
 			(effects
 				(font
@@ -1752,7 +1770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "47uF"
 			(at 148.844 109.982 90)
 			(effects
 				(font
@@ -1761,7 +1779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 145.7452 107.95 0)
 			(effects
 				(font
@@ -1781,6 +1799,15 @@
 		)
 		(property "Description" "Polarized capacitor"
 			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7469965"
+			(at 144.78 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +1929,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 90.17 90)
+		(at 107.95 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1911,7 +1938,7 @@
 		(fields_autoplaced yes)
 		(uuid "5003a79f-9a27-4abf-a58b-681a624d5169")
 		(property "Reference" "#PWR029"
-			(at 114.3 90.17 0)
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +1947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 90.1699 90)
+			(at 111.76 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1929,7 +1956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 90.17 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,7 +1965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 90.17 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 90.17 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2422,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 90.17 90)
+		(at 102.87 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2404,15 +2431,15 @@
 		(fields_autoplaced yes)
 		(uuid "7c71efe8-7708-4476-a558-41ba0fb8ab33")
 		(property "Reference" "R17"
-			(at 102.87 83.82 90)
+			(at 102.87 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 102.87 86.36 90)
+		(property "Value" "0.2"
+			(at 102.87 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2447,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 102.87 91.948 90)
+			(at 102.87 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 90.17 0)
+			(at 102.87 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2465,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 90.17 0)
+			(at 102.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C44051"
+			(at 102.87 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2515,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 96.52 90)
+		(at 104.14 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2487,15 +2523,15 @@
 		(dnp no)
 		(uuid "94993125-62c9-4ee6-a64f-a6f37c34fc6f")
 		(property "Reference" "R18"
-			(at 104.14 94.488 90)
+			(at 104.14 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 104.14 96.52 90)
+		(property "Value" "1k"
+			(at 104.14 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2539,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 104.14 98.298 90)
+			(at 104.14 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 96.52 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2557,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 96.52 0)
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907232"
+			(at 104.14 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "80k"
 			(at 120.65 101.5999 0)
 			(effects
 				(font
@@ -2607,6 +2652,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2960781"
 			(at 118.11 100.33 0)
 			(effects
 				(font
@@ -2665,7 +2719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 137.16 105.4099 0)
 			(effects
 				(font
@@ -2693,6 +2747,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C519981"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -2734,7 +2797,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 100.33 270)
+		(at 104.14 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2742,15 +2805,15 @@
 		(dnp no)
 		(uuid "d4197003-81d2-454b-94d4-5ce0c416b30e")
 		(property "Reference" "R19"
-			(at 104.14 102.616 90)
+			(at 104.14 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 104.14 100.33 90)
+		(property "Value" "1k"
+			(at 104.14 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2821,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 104.14 98.552 90)
+			(at 104.14 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2830,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 100.33 0)
+			(at 104.14 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2839,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 100.33 0)
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907232"
+			(at 104.14 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +2906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 111.76 113.0299 0)
 			(effects
 				(font
@@ -2862,6 +2934,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C519981"
 			(at 107.95 111.76 0)
 			(effects
 				(font
