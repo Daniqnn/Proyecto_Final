@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 0.5,
-          "width": 0.5
+          "drill": 0.65,
+          "height": 0.65,
+          "width": 0.65
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -193,7 +193,8 @@
         0.6,
         0.8,
         1.0,
-        2.0
+        2.0,
+        2.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -506,7 +507,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "../../../Fabricacion de PCB/Proyecto_Final_ITLA/ITLA-Proyecto/",
+      "plot": "../../Fabricacion de PCB/Gerbers/",
       "pos_files": "../../../Fabricacion de PCB/Proyecto_Final_ITLA/CPL/",
       "specctra_dsn": "",
       "step": "",
